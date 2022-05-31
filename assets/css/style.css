@@ -59,6 +59,26 @@ h3 {
     margin-right: 40px;
   }
 
+  #player .fa-solid,
+  #player .choice {
+    color: #3C4FFF;
+    cursor: pointer;
+  }
+  
+  #computer .fa-solid,
+  #computer .choice {
+    color: #C45FFE;
+  }
+  
+  #player .fa-solid:last-of-type,
+  #computer .fa-solid:last-of-type {
+    margin-right: 0;
+  }
+  
+  .selected {
+    color: black !important;
+  }
+
   #reset {
       margin: 30px;
   }
