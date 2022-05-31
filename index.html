@@ -12,22 +12,23 @@
     <section class="main-game-area">
         <div class="container">
             <h1>Rock, Paper, Scissor, Lizard, Spock <br>Game</h1>
-            <h3><span>Your Score:</span><span class="user-score">0</span></h3>
-            <div class="user-icons">
-                <i class="fa-solid fa-hand-back-fist"></i>
-                <i class="fa-solid fa-hand"></i>
-                <i class="fa-solid fa-hand-scissors"></i>
-                <i class="fa-solid fa-hand-lizard"></i>
-                <i class="fa-solid fa-hand-spock"></i>
+            <h3><span>Your Score:</span><span class="user-score"> 0</span></h3>
+            <div class="user-choices">
+                <i class="fa-solid fa-hand-back-fist" title="Rock" id="playerRock"></i>
+                <i class="fa-solid fa-hand" title="Paper" id="playerPaper"></i>
+                <i class="fa-solid fa-hand-scissors" title="Scissors" id="playerScissors"></i>
+                <i class="fa-solid fa-hand-lizard" title="Lizard" id="playerLizard"></i>
+                <i class="fa-solid fa-hand-spock" title="Spock" id="playerSpock"></i>
             </div>
-            <h3><span>Computer Score:</span><span class="computer-score">0</span></h3>
-            <div class="computer-icons">
-                <i class="fa-solid fa-hand-back-fist"></i>
-                <i class="fa-solid fa-hand"></i>
-                <i class="fa-solid fa-hand-scissors"></i>
-                <i class="fa-solid fa-hand-lizard"></i>
-                <i class="fa-solid fa-hand-spock"></i>
+            <h3><span>Computer Score:</span><span class="computer-score"> 0</span></h3>
+            <div class="computer-choices">
+                <i class="fa-solid fa-hand-back-fist" title="Rock" id="computerRock"></i>
+                <i class="fa-solid fa-hand" title="Paper" id="computerPaper"></i>
+                <i class="fa-solid fa-hand-scissors" title="Scissors" id="computerScissors"></i>
+                <i class="fa-solid fa-hand-lizard" title="Lizard" id="computerLizard"></i>
+                <i class="fa-solid fa-hand-spock" title="Spock" id="computerSpock"></i>
             </div>
+            <i class="fa-solid fa-arrows-rotate" id="reset"></i>
             <h2 id="result">You Lost!</h2>
         </div>
     </section>
