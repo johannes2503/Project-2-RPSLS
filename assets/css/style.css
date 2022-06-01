@@ -83,6 +83,10 @@ h3 {
       margin: 30px;
   }
 
+  .selected {
+    color: black !important;
+  }
+
   /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 820px) {
     .main-game-area {
