@@ -1,3 +1,6 @@
+
+/* Decleration of varibles used in the game */
+
 const playerScoreEl = document.getElementById('playerScore');
 const playerChoiceEl = document.getElementById('playerChoice');
 
@@ -30,6 +33,7 @@ function resetSelected() {
 /* Function for player selection */
 
 function playerSelect(playerChoice) {
+    resetSelected();
     switch (playerChoice) {
         case 'rock':
             playerRock.classList.add('selected');
@@ -52,7 +56,6 @@ function playerSelect(playerChoice) {
             playerChoiceEl.textContent = ' --- Spock';
             break;
         default:
-            break;
-            
+            break;    
     }
 }
