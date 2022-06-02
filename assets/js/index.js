@@ -26,9 +26,13 @@ const allGameIcons = document.querySelectorAll('.far');
 
 let computerChoice = '';
 
+/* Function to process turn */
 
-computerRandomSelect();
-computerSelect(computerChoice);
+function processTurn() {
+    computerRandomSelect();
+    computerSelect(computerChoice);
+}
+
 
 // Reset all 'selected' icons
 function resetSelected() {
@@ -52,14 +56,13 @@ function computerRandomSelect() {
     } else {
         computerChoice = 'spock'
     }
-    console.log(computerNumber);
-    console.log(computerChoice);
 }
 
 /* Function for player selection */
 
 function playerSelect(playerChoice) {
     resetSelected();
+    processTurn();
     switch (playerChoice) {
         case 'rock':
             playerRock.classList.add('selected');
