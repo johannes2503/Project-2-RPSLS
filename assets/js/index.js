@@ -23,14 +23,47 @@ const result = document.getElementById('result');
 
 const allGameIcons = document.querySelectorAll('.far');
 
-
+let playerScore = 0;
+let computerScore = 0;
 let computerChoice = '';
+
+/* Obejct with gameChoices (game rules)  */
+
+const gameChoices = {
+    rock: { name: 'Rock', defeats: ['scissors', 'lizard'] },
+    paper: { name: 'Paper', defeats: ['rock', 'spock'] },
+    scissors: { name: 'Scissors', defeats: ['paper', 'lizard'] },
+    lizard: { name: 'Lizard', defeats: ['paper', 'spock'] },
+    spock: { name: 'Spock', defeats: ['scissors', 'rock'] },
+};
+  
+
+/* Function to process result and update score */
+
+function resultScore(playerChoice) {
+    if (playerChoice === computerChoice) {
+        result.textContent = 'It is a Tie!';
+    } else {
+        const choice = gameChoices[playerChoice];
+        if (choice.defeats.indexOf(computerChoice) > -1) {
+            result.textContent = 'You Won!';
+            playerScore++;
+            playerScoreEl.textContent = playerScore;
+        } else {
+            result.textContent = 'You Lost!';
+            computerScore++;
+            computerScoreEl.textContent = computerScore;
+        }
+    }
+}
 
 /* Function to process turn */
 
-function processTurn() {
+function processTurn(playerChoice) {
+    resetSelected();
     computerRandomSelect();
     computerSelect(computerChoice);
+    resultScore(playerChoice);
 }
 
 
@@ -61,8 +94,7 @@ function computerRandomSelect() {
 /* Function for player selection */
 
 function playerSelect(playerChoice) {
-    resetSelected();
-    processTurn();
+    processTurn(playerChoice);
     switch (playerChoice) {
         case 'rock':
             playerRock.classList.add('selected');
@@ -92,7 +124,6 @@ function playerSelect(playerChoice) {
 /* Function for Computer selection */
 
 function computerSelect(computerChoice) {
-    resetSelected();
     switch (computerChoice) {
         case 'rock':
             computerRock.classList.add('selected');
