@@ -23,12 +23,38 @@ const result = document.getElementById('result');
 
 const allGameIcons = document.querySelectorAll('.far');
 
+
+let computerChoice = '';
+
+
+computerRandomSelect();
+computerSelect(computerChoice);
+
 // Reset all 'selected' icons
 function resetSelected() {
     allGameIcons.forEach((icon) => {
       icon.classList.remove('selected');
     });
-  }
+}
+
+/* Function for random computer Selection */
+
+function computerRandomSelect() {
+    const computerNumber = Math.random();
+    if (computerNumber < 0.2) {
+        computerChoice = 'rock'; 
+    } else if (computerNumber <= 0.4) {
+        computerChoice = 'paper'
+    } else if (computerNumber <= 0.6) {
+        computerChoice = 'scissors'
+    } else if (computerNumber <= 0.8) {
+        computerChoice = 'lizard'
+    } else {
+        computerChoice = 'spock'
+    }
+    console.log(computerNumber);
+    console.log(computerChoice);
+}
 
 /* Function for player selection */
 
@@ -58,4 +84,35 @@ function playerSelect(playerChoice) {
         default:
             break;    
     }
+}
+
+/* Function for Computer selection */
+
+function computerSelect(computerChoice) {
+    resetSelected();
+    switch (computerChoice) {
+        case 'rock':
+            computerRock.classList.add('selected');
+            computerChoiceEl.textContent = ' --- Rock';
+            break;
+        case 'paper':
+            computerPaper.classList.add('selected');
+            computerChoiceEl.textContent = ' --- Paper';
+            break;
+        case 'scissors':
+            computerScissors.classList.add('selected');
+            computerChoiceEl.textContent = ' --- Scissors';
+        break;
+        case 'lizard':
+            computerLizard.classList.add('selected');
+            computerChoiceEl.textContent = ' --- Lizard';
+        break;
+        case 'spock':
+            computerSpock.classList.add('selected');
+            computerChoiceEl.textContent = ' --- Spock';
+            break;
+        default:
+            break;    
+    }
+    
 }
