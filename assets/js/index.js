@@ -78,6 +78,19 @@ function endGame() {
     }
 }
 
+/* Function to reset the game */
+
+function resetGame() { 
+    playerScore = 0;
+    playerScoreEl.textContent = playerScore
+    computerScore = 0;
+    computerScoreEl.textContent = computerScore
+    playerChoiceEl.textContent = '';
+    computerChoiceEl.textContent = '';
+    result.textContent = '';
+    resetSelected();
+}
+
     
 /* Function to process turn */
 
@@ -88,7 +101,6 @@ function processTurn(playerChoice) {
     resultScore(playerChoice);
     endGame();
 }
-
 
 // Reset all 'selected' icons
 function resetSelected() {
@@ -172,16 +184,4 @@ function computerSelect(computerChoice) {
             break;    
     }
     
-}
-/* Function to reset the game */
-
-function resetGame() { 
-    playerScore = -1;
-    computerScore = -1;
-    playerScore.textContent = -1;
-    computerScore.textContent = -1;
-    playerChoiceEl.textContent = '';
-    computerChoiceEl.textContent = '';
-    result.textContent = '';
-    resetSelected();
 }
