@@ -62,15 +62,23 @@ function resultScore(playerChoice) {
 /* Function to end game after 10 rounds */
 
 function endGame() {
-    if (playerScore === 10) {
-        result.textContent = 'You Won the Game!';
-    } else if (computerScore === 10) {
-        result.textContent = 'The computer Won the Game!';
+    switch (playerScore) {
+        case 10:
+            result.textContent = 'You Won the Game!';
+            break;
+        default:
+            break;
+    }
+    switch (computerScore) {
+        case 10:
+            result.textContent = 'The computer Won the Game!'
+            break;
+        default:
+            break;
     }
 }
-    
-    
 
+    
 /* Function to process turn */
 
 function processTurn(playerChoice) {
@@ -168,8 +176,10 @@ function computerSelect(computerChoice) {
 /* Function to reset the game */
 
 function resetGame() { 
-    computerScore = 0;
-    playerScore = 0;
+    playerScore = -1;
+    computerScore = -1;
+    playerScore.textContent = -1;
+    computerScore.textContent = -1;
     playerChoiceEl.textContent = '';
     computerChoiceEl.textContent = '';
     result.textContent = '';
