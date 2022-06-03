@@ -79,10 +79,6 @@ h4 {
   #computer .fa-solid:last-of-type {
     margin-right: 0;
   }
-  
-  .selected {
-    color: black !important;
-  }
 
   #reset {
       margin: 30px;

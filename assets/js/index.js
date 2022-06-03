@@ -20,6 +20,7 @@ const computerLizard = document.getElementById('computerLizard');
 const computerSpock = document.getElementById('computerSpock');
 
 const result = document.getElementById('result');
+const reset = document.getElementById('reset');
 
 const allGameIcons = document.querySelectorAll('.far');
 
@@ -46,16 +47,29 @@ function resultScore(playerChoice) {
     } else {
         const choice = gameChoices[playerChoice];
         if (choice.defeats.indexOf(computerChoice) > -1) {
-            result.textContent = 'You Won!';
+            result.textContent = 'You Won this round!';
             playerScore++;
             playerScoreEl.textContent = playerScore;
-        } else {
-            result.textContent = 'You Lost!';
+        } else{
+            result.textContent = 'You Lost this round!';
             computerScore++;
             computerScoreEl.textContent = computerScore;
         }
     }
+
 }
+
+/* Function to end game after 10 rounds */
+
+function endGame() {
+    if (playerScore === 10) {
+        result.textContent = 'You Won the Game!';
+    } else if (computerScore === 10) {
+        result.textContent = 'The computer Won the Game!';
+    }
+}
+    
+    
 
 /* Function to process turn */
 
@@ -64,6 +78,7 @@ function processTurn(playerChoice) {
     computerRandomSelect();
     computerSelect(computerChoice);
     resultScore(playerChoice);
+    endGame();
 }
 
 
@@ -149,4 +164,14 @@ function computerSelect(computerChoice) {
             break;    
     }
     
+}
+/* Function to reset the game */
+
+function resetGame() { 
+    computerScore = 0;
+    playerScore = 0;
+    playerChoiceEl.textContent = '';
+    computerChoiceEl.textContent = '';
+    result.textContent = '';
+    resetSelected();
 }
