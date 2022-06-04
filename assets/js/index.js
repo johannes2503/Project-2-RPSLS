@@ -59,19 +59,27 @@ function resultScore(playerChoice) {
 
 }
 
+// When the user clicks on div, open the popup
+function resetGamePopup() {
+    const popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
+
 /* Function to end game after 10 rounds */
 
 function endGame() {
     switch (playerScore) {
-        case 10:
+        case 5:
             result.textContent = 'You Won the Game!';
+            resetGamePopup();
             break;
         default:
             break;
     }
     switch (computerScore) {
-        case 10:
+        case 5:
             result.textContent = 'The computer Won the Game!'
+            resetGamePopup();
             break;
         default:
             break;
@@ -89,6 +97,7 @@ function resetGame() {
     computerChoiceEl.textContent = '';
     result.textContent = '';
     resetSelected();
+    resetGamePopup();
 }
 
     
