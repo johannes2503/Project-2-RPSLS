@@ -58,7 +58,7 @@ function resultScore(playerChoice) {
 
 }
 
-/* Function for toggleing popup */
+/* Function for popup */
 
 function resetGamePopup() {
     const popup = document.getElementById("myPopup");
@@ -69,8 +69,17 @@ function resetGamePopup() {
     endResult.textContent = result.textContent
     if (endResult.textContent === 'You win!') {
         won.classList.add("showWon");
+    } else {
+        lost.classList.add("showLost");
     }
-  }
+}
+  
+/* Function for resetting classes for images */
+
+function resetClasses() {
+    won.classList.remove("showWon");
+    lost.classList.remove("showLost");
+}
 
 /* Function to end game after 5 rounds */
 
@@ -105,6 +114,7 @@ function resetGame() {
     result.textContent = '';
     resetSelected();
     resetGamePopup();
+    resetClasses();
 }
 
     

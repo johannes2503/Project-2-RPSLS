@@ -180,13 +180,13 @@ a {
   visibility: hidden;
 }
 .showLost {
-  visibility: visible;
+  visibility: visible !important;
 }
 #won {
   visibility: hidden;
 }
 .showWon {
-  visibility: visible;
+  visibility: visible !important;
 }
 
 
