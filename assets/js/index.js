@@ -63,9 +63,13 @@ function resultScore(playerChoice) {
 function resetGamePopup() {
     const popup = document.getElementById("myPopup");
     const endResult = document.getElementById('endResult');
+    const lost = document.getElementById('lost');
+    const won = document.getElementById('won');
     popup.classList.toggle("show");
     endResult.textContent = result.textContent
-
+    if (endResult.textContent === 'You win!') {
+        won.classList.add("showWon");
+    }
   }
 
 /* Function to end game after 5 rounds */

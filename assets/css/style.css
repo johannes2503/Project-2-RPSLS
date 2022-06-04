@@ -176,6 +176,20 @@ a {
 
 }
 
+#lost {
+  visibility: hidden;
+}
+.showLost {
+  visibility: visible;
+}
+#won {
+  visibility: hidden;
+}
+.showWon {
+  visibility: visible;
+}
+
+
 /* Toggle this class - hide and show the popup */
 .popup .show {
   visibility: visible;
