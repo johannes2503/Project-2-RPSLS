@@ -21,7 +21,6 @@ const computerSpock = document.getElementById('computerSpock');
 
 const result = document.getElementById('result');
 const reset = document.getElementById('reset');
-
 const allGameIcons = document.querySelectorAll('.far');
 
 let playerScore = 0;
@@ -59,18 +58,22 @@ function resultScore(playerChoice) {
 
 }
 
-// When the user clicks on div, open the popup
+/* Function for toggleing popup */
+
 function resetGamePopup() {
     const popup = document.getElementById("myPopup");
+    const endResult = document.getElementById('endResult');
     popup.classList.toggle("show");
+    endResult.textContent = result.textContent
+
   }
 
-/* Function to end game after 10 rounds */
+/* Function to end game after 5 rounds */
 
 function endGame() {
     switch (playerScore) {
         case 5:
-            result.textContent = 'You Won the Game!';
+            result.textContent = 'You win!'
             resetGamePopup();
             break;
         default:
@@ -78,7 +81,7 @@ function endGame() {
     }
     switch (computerScore) {
         case 5:
-            result.textContent = 'The computer Won the Game!'
+            result.textContent = 'You lost!'
             resetGamePopup();
             break;
         default:
