@@ -20,13 +20,11 @@ Welcome to the journey through <a href="https://github.com/johannes2503/Project-
          * [Main game area game in progress](<#Main-game-area-game-in-progress>)
          * [Main game area game won](<#Main-game-area-Won-game>)
          * [Main game area game lost](<#Main-game-area-Lost-game>)
-    * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
     * [**Content**](<#content>)
-    * [**Media**](<#media>)
 *  [**Acknowledgements**](<#acknowledgements>)
 
 
@@ -140,6 +138,8 @@ The CSS validator results are below:
 
 ![CSS Validator test result](./assets/images/readme-images/CSS%20check.png)
 
+[Back to top](<#contents>)
+
 ## Responsiveness Test
 
 * The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
@@ -156,6 +156,8 @@ Note: On wide display types the contents of the site are restricted in width to 
 
 RPSLS game was tested on the following browsers with no visible issues for the user. 
 Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
+
+[Back to top](<#contents>)
 
 ## Known Bugs
 * ### Resolved
