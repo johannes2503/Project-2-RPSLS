@@ -267,6 +267,27 @@ a {
       margin-left: 15px;
       
     }
+
+    .popup .popuptext {
+      position: absolute;
+      transform: translate(-100%, -50%);
+      width: 95%;
+      height: 500px;
+    
+    }
+
+    #endResult {
+      margin-top: 10px;
+      font-size: 34px;
+    }
+    
+    #reset {
+      cursor: pointer;
+        margin: 30px;
+    }
+    #tryAgain {
+      margin-top: 30px;
+    }
   
 
   }
@@ -309,6 +330,34 @@ a {
 
     #result {
       margin-top: 20px;
+    }
+
+    .popup .popuptext {
+      position: absolute;
+      transform: translate(-100%, -50%);
+      width: 95%;
+      height: 400px;
+    
+    }
+
+    #endResult {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+    
+    #tryAgain {
+      font-size: 14px;
+    }
+
+    #won {
+      height: 50%;
+      width: 55%;
+    }
+  
+
+    #lost {
+      height: 50%;
+     
     }
   
   }
