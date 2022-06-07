@@ -58,7 +58,7 @@ function resultScore(playerChoice) {
 
 }
 
-/* Function for popup */
+/* Function for popup after game result */
 
 function resetGamePopup() {
     const popup = document.getElementById("myPopup");
@@ -128,7 +128,8 @@ function processTurn(playerChoice) {
     endGame();
 }
 
-// Reset all 'selected' icons
+/* Function for resetting all 'selected' icons */
+
 function resetSelected() {
     allGameIcons.forEach((icon) => {
       icon.classList.remove('selected');
