@@ -226,6 +226,10 @@ a {
       width: 95%;
       height: 500px;
     }
+
+    .main-area {
+      margin: 10px;
+  }
   
     h1 {
       font-size: 22px;
@@ -286,9 +290,14 @@ a {
   /* Media Query: Small Smartphone */
   
   @media screen and (max-width: 376px) {
+
     .main-game-area {
       height: 400px;
     }
+
+    .main-area {
+      margin: 10px;
+  }
     h1 {
       font-size: 20px;
     }

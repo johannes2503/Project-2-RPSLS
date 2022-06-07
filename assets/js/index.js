@@ -66,7 +66,7 @@ function resetGamePopup() {
     const lost = document.getElementById('lost');
     const won = document.getElementById('won');
     popup.classList.toggle("show");
-    endResult.textContent = result.textContent
+    endResult.textContent = result.textContent;
     if (endResult.textContent === 'You win!') {
         won.classList.add("showWon");
     } else {
@@ -86,7 +86,7 @@ function resetClasses() {
 function endGame() {
     switch (playerScore) {
         case 5:
-            result.textContent = 'You win!'
+            result.textContent = 'You win!';
             resetGamePopup();
             break;
         default:
@@ -94,7 +94,7 @@ function endGame() {
     }
     switch (computerScore) {
         case 5:
-            result.textContent = 'You lost!'
+            result.textContent = 'You lost!';
             resetGamePopup();
             break;
         default:
@@ -106,9 +106,9 @@ function endGame() {
 
 function resetGame() { 
     playerScore = 0;
-    playerScoreEl.textContent = playerScore
+    playerScoreEl.textContent = playerScore;
     computerScore = 0;
-    computerScoreEl.textContent = computerScore
+    computerScoreEl.textContent = computerScore;
     playerChoiceEl.textContent = '';
     computerChoiceEl.textContent = '';
     result.textContent = '';
@@ -143,13 +143,13 @@ function computerRandomSelect() {
     if (computerNumber < 0.2) {
         computerChoice = 'rock'; 
     } else if (computerNumber <= 0.4) {
-        computerChoice = 'paper'
+        computerChoice = 'paper';
     } else if (computerNumber <= 0.6) {
-        computerChoice = 'scissors'
+        computerChoice = 'scissors';
     } else if (computerNumber <= 0.8) {
-        computerChoice = 'lizard'
+        computerChoice = 'lizard';
     } else {
-        computerChoice = 'spock'
+        computerChoice = 'spock';
     }
 }
 

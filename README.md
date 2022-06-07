@@ -126,29 +126,21 @@ RPSLS game is a game for fun. The landing page has the instructions and then you
 # Testing
 
 ## Code Validation
-The RPSLS game site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Errors were found on the home and menu pages. After a fix and retest, no errors were returned for both. 
+The RPSLS game site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and [JSHint javascript validator](https://jshint.com/). Errors were found. After a fix and retest, no errors were returned. 
 
 The HTML validator results for each page are below:
 
 * Home page
 
-![W3C Validator test result](./assets/readme-images/html-testing.png)
+![W3C Validator test result](./assets/images/readme-images/html-check.png)
 
-* Menu page
+* Main game page
 
-![W3C Validator test result](./assets/readme-images/html-testing.png)
-
-* Reservations page
-
-![W3C Validator test result](./assets/readme-images/html-testing.png)
-
-* Contact page
-
-![W3C Validator test result](./assets/readme-images/html-testing.png)
+![W3C Validator test result](./assets/images/readme-images/html-check.png)
 
 The CSS validator results are below:
 
-![CSS Validator test result](./assets/readme-images/CSS-testing.png)
+![CSS Validator test result](./assets/images/readme-images/CSS%20check.png)
 
 ## Responsiveness Test
 
@@ -164,7 +156,7 @@ Note: On wide display types the contents of the site are restricted in width to 
 
 ## Browser Compatibility
 
-Restaurant site was tested on the following browsers with no visible issues for the user. 
+RPSLS game was tested on the following browsers with no visible issues for the user. 
 Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
 
 ## Known Bugs
@@ -172,14 +164,12 @@ Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functiona
 
     * During validation two bugs became known during the validation stage, a brief description is below:
 
-    * Home page - 
-    There was an error in the section for the hero-image. Had to change the section to a div to fix it.
+    * CSS - 
+    Wrong attribute for one of the text elements. Fixed.
 
-    * Menu page - 
-    Had numerous bugs on the menu page. Had been using colspan="number" when I didn't have to. Took me quite a while to figure that one out. Fixed it by getting rid of it and then it was good to go.
 
 * ### Unresolved
-    * The form, on the face of it acts like you would expect it to, it acknowledges your data input, however the data doesn't push anywhere. This is a limitation within this project and would be rectified for a true deployment of the Restaurant site.
+    * JavaScript warnings in the JShint validator.
 
 [Back to top](<#contents>)
 
@@ -192,22 +182,22 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
   3. Under **Source**, select the branch to **main**, then click **save**.
   4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-![GitHub pages deployed image](./assets/readme-images/github-pages.png)
+![GitHub pages deployed image](./assets/images/readme-images/github-pages.png)
 
-  The live link to the Github repository can be found here - https://github.com/johannes2503/Project-1-Restaurant
+  The live link to the Github repository can be found here - https://johannes2503.github.io/Project-2-RPSLS/
 
 ### **To fork the repository on GitHub**
 A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
-1. Log in to **GitHub** and locate the [repository](https://github.com/johannes2503/Project-1-Restaurant).
+1. Log in to **GitHub** and locate the [repository](https://johannes2503.github.io/Project-2-RPSLS/).
 2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
-![GitHub forking process image](./assets/readme-images/github-fork.png)
+![GitHub forking process image](./assets/images/readme-images/github-fork.png)
 
 ### **To create a local clone of this project**
 The method from cloning a project from GitHub is below:
 
 1. Under the repository’s name, click on the **code** tab.
 2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
-![Cloning image](./assets/readme-images/github-clone.png)
+![Cloning image](./assets/images/readme-images/github-clone.png)
 3. In your IDE of choice, open **Git Bash**.
 4. Change the current working directory to the location where you want the cloned directory to be made.
 5. Type **git clone**, and then paste the URL copied from GitHub.
@@ -224,14 +214,10 @@ The method from cloning a project from GitHub is below:
 * [Figma](https://figma.com) was used to create the wireframes.
 
 
-### Media
-* The most photos came from the developer.
-* The photos that were not from the developer came from [Unsplash](https://unsplash.com/).
-
 [Back to top](<#contents>)
 
 # Acknowledgements
-The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. Also want to thank Ewan Colquhoun for the README.md template which this readme is based on.[Ewan Colquhoun](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md). Restaurant is a fictional restaurant based on my father in laws place. Which is located in my home town.  
+The Game was completed as a Portfolio 2 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. Also want to thank Ewan Colquhoun for the README.md template which this readme is based on.[Ewan Colquhoun](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md).
 
 Johannes Hreinsson 2022.
 
