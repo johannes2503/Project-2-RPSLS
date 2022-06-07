@@ -118,7 +118,6 @@ h1{
 
 #instructions {
   text-align: center;
-  text-justify: distribute;
   padding-top: 20px;
   list-style-type: none;
 
@@ -147,15 +146,6 @@ a {
 }
 
 /* Popup for resetting game and result */
-
-/* Popup container styling */
-
-.popup {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
 
 /* The actual popup styling */
 
