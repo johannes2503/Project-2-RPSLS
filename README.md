@@ -1,10 +1,10 @@
 # **_Rock Paper Scissors Lizard Spock Game_**
 
-RPSLS is a game where you choose one of the following, Rock, Paper, Scissor, Lizar or Spock and the computer randomly chooses one as well. Then if you won you get a score added or if the computer won she gets a score added.
+RPSLS is a game where you choose one of the following, Rock, Paper, Scissor, Lizar or Spock and the computer randomly chooses one as well. Then if you won you get a score added or if the computer won it gets a score added. The game score goes to 5 and which one reaches it before wins the game.
 
 Welcome to the journey through <a href="https://github.com/johannes2503/Project-2-RPSLS" target="_blank" rel="noopener">Rock Paper Scissors Lizar Spock</a>
 
-![RPSLS responsive design](./assets/readme-images/responsive.png)
+![RPSLS responsive design](./assets/images/readme-images/responsiveness.png)
 
 # Contents
 
@@ -39,110 +39,84 @@ Welcome to the journey through <a href="https://github.com/johannes2503/Project-
 
 The wireframes for Restaurant were produced in [Figma](https://figma.com). There are frames for a full width display. The final site varies slightly from the wireframes due to developments that occured during the creation process. 
 
-![Desktop wireframe image]()
+![Desktop wireframe image](./assets/images/readme-images/RPSLS-game.png)
 
 [Back to top](<#contents>)
 
 ## Site Structure
 
-Restaurant website has four pages. The [home page](./index.html) is the default loading page, [Menu page](./menu.html), [Reservations](./reservations.html) and [contact](./contact.html) pages are all accessible primarily from the navigation menu.
+RPSLS game has two pages. The [home page](./index.html) is the default loading page and the [Game page](./game.html)
 
 [Back to top](<#contents>)
 
 ## Design Choices
 
  * ### Typography
-      The fonts chosen were 'Parisienne' for the main heading and 'Poppins' for the headings and text. They fall back to cursive and sans-serif respectively. 
-     *  ''Parisienne' was chosen for the headings to give the user an inital welcoming feel. The cursive style generally feels more inviting and less intimidating for the user than others.
-      * 'Poppins' is used for the body text as it provides a nice contrast to the cursive whilst being easy to read for all.
+      The fonts chosen were 'Montserrat' for all fonts in the game. They fall back to sans-serif respectively. 
 
  * ### Colour Scheme
-      The colour scheme eventually chosen is one based on green and off-white. The colour contrasts with the wood colour in many of the images. Green traditionally gives the impression of energy, safety and growth.
+      The colors are very bright and fun. They were chosen to brighten up the game and give some lightness to it.
 
-![Colour Palate image](./assets/readme-images/color-palette.png)
+![Colour Palate image](./assets/images/readme-images/color-palette.png)
 
 
 [Back to top](<#contents>)
 
 # Features
 
-Restaurants site is set up to be welcoming and easy to use. It contains many features that the user would probably be familiar with, such as a navigation bar and contact form. The overall feel of the website is intended to be inviting and not intimidating to encourage the user to explore further. 
+RPSLS game is a game for fun. The landing page has the instructions and then you start the game and choose your weapon to combat the computer. 
 
-## Existing Features  
-  * ### Navigation Menu
+## Existing Features 
 
-    * Sited at the top of all the pages in the site, it is fully responsive and contains links to all the pages of the site to enable ease of navigation in one convenient location.
-    * The logo is clickable with a link back to the home page for enhanced UX.
+  * ### Landing page
 
-![Navigation bar image](./assets/readme-images/navbar.png)
+    * This is the landing page which you start on, it is fully responsive and contains link to the main game page.
+
+![Landing page image](./assets/images/readme-images/landing-page.png)
 
 [Back to top](<#contents>)
 
-  * ### Owners Welcome
+  * ### Main game area
 
-      * Located on the home page beneath the title section. It is supposed to invite the user to have a enjoyable evening in the good hands of the owner.
+      * This is the main game area, where you choose your weapaon and play against the computer.
       
 
-![Owners welcome image](./assets/readme-images/owner-welcome.png)
+![Main game area image](./assets/images/readme-images/game-area.png)
 
 [Back to top](<#contents>)
 
-  * ### Reviews
-    * The reviews section adds to the trust that Restaurant is a place of excellent service and food. 
+ * ### Main game area - game in progress
 
-![Reviews image](./assets/readme-images/reviews.png)
+      * Here you can see the game in progress, the layout of game choices and result text.
+      
 
-[Back to top](<#contents>)
-
-* ### Footer
-    
-    * Contains social media links. To enhance the UX the links open in other tabs.
-    * The social media presence will help the user with their research into Restaurant.
-    * The footer also contains information about opening hours and contact info.
-    
-![Footer image](./assets/readme-images/footer.png)
+![Main game area - in progress image](./assets/images/readme-images/game-area.png)
 
 [Back to top](<#contents>)
 
-* ### Menu page
-    
-    * The menu page contains every course that the restaurant offers.
-    * The menu items alternate to be more interesting to the user.
+ * ### Main game area - Won game
 
-![Menu page image](./assets/readme-images/menu-item.png)
+      * This is the screen that comes up if you win the game! Here you can see the result and also you can reset the game and try again.
+      
 
-[Back to top](<#contents>)
-
-* ### Reservations page
-
-    * On the reservations page users can order a table at the restaurant.
-    * The form askes for information from the user. First name, last name and so on and sends it then on to the restaurant when the user clicks send.
-    * The user can pick a date and time from a calendar picker.
-
-![Reservations page image](./assets/readme-images/reservations.png)
+![Main game area image](./assets/images/readme-images/won-game.png)
 
 [Back to top](<#contents>)
 
-* ### Contact us page
+* ### Main game area - Lost game
 
-    * On the contact page users can contact the restaurant.
-    * The form askes for information from the user. First name, last name and so on and sends it then on to the restaurant when the user clicks send.
+      * This is the screen that comes up if you lose the game! Here you can see the result and also you can reset the game and try again.
+      
 
-![Contact page image](./assets/readme-images/contact.png)
-
-[Back to top](<#contents>)
-
-## Future Features 
-
-* A 'Order' section so the user can order takeaway food.
-    * This would incorporate an e-commerce platform and an enhanced menu page.
-* Introduce swipe actions for use on mobile devices for the menu items sliders.
+![Main game area image](./assets/images/readme-images/lost-game.png)
 
 [Back to top](<#contents>)
+
 
 # Technologies Used
 * [HTML5](https://html.spec.whatwg.org/) - provides the content and structure for the website.
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling.
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - provides the function of the game.
 * [Figma](https://figma.com) - used to create the wireframes.
 * [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
 * [Github](https://github.com/) - used to host and edit the website.
@@ -152,7 +126,7 @@ Restaurants site is set up to be welcoming and easy to use. It contains many fea
 # Testing
 
 ## Code Validation
-The Restaurant site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Errors were found on the home and menu pages. After a fix and retest, no errors were returned for both. 
+The RPSLS game site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Errors were found on the home and menu pages. After a fix and retest, no errors were returned for both. 
 
 The HTML validator results for each page are below:
 
