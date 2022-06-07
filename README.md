@@ -15,13 +15,11 @@ Welcome to the journey through <a href="https://github.com/johannes2503/Project-
     *  [Typography](<#typography>)
     *  [Colour Scheme](<#colour-scheme>)
 * [**Features**](<#features>)
-    * [**Home**](<#navigation-menu>)
-         * [Navigation menu](<#navigation-menu>)
-         * [Owners Welcome](<#owners-welcome>)
-         * [Footer](<#footer>)
-         * [Menu page](<#menu-page>)
-         * [Reservations page](<#reservations-page>)
-         * [Contact us page](<#contact-us-page>)
+    * [**Home**](<#Landing-page>)
+         * [Main game area](<#Main-game-area>)
+         * [Main game area](<#Main-game-area-game-in-progress>)
+         * [Main game area](<#Main-game-area-Won-game>)
+         * [Main game area](<#Main-game-area-Lost-game>)
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
@@ -68,7 +66,7 @@ RPSLS game is a game for fun. The landing page has the instructions and then you
 
 ## Existing Features 
 
-  * ### Landing page
+  * ### Landing-page
 
     * This is the landing page which you start on, it is fully responsive and contains link to the main game page.
 
@@ -76,7 +74,7 @@ RPSLS game is a game for fun. The landing page has the instructions and then you
 
 [Back to top](<#contents>)
 
-  * ### Main game area
+  * ### Main-game-area
 
       * This is the main game area, where you choose your weapaon and play against the computer.
       
@@ -85,7 +83,7 @@ RPSLS game is a game for fun. The landing page has the instructions and then you
 
 [Back to top](<#contents>)
 
- * ### Main game area - game in progress
+ * ### Main-game-area-game-in-progress
 
       * Here you can see the game in progress, the layout of game choices and result text.
       
@@ -94,21 +92,21 @@ RPSLS game is a game for fun. The landing page has the instructions and then you
 
 [Back to top](<#contents>)
 
- * ### Main game area - Won game
+ * ### Main-game-area-Won-game
 
       * This is the screen that comes up if you win the game! Here you can see the result and also you can reset the game and try again.
       
 
-![Main game area image](./assets/images/readme-images/won-game.png)
+![Main game area won image](./assets/images/readme-images/won-game.png)
 
 [Back to top](<#contents>)
 
-* ### Main game area - Lost game
+* ### Main-game-area-Lost-game
 
       * This is the screen that comes up if you lose the game! Here you can see the result and also you can reset the game and try again.
       
 
-![Main game area image](./assets/images/readme-images/lost-game.png)
+![Main game area lost image](./assets/images/readme-images/lost-game.png)
 
 [Back to top](<#contents>)
 
