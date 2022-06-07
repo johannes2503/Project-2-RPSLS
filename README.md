@@ -81,7 +81,7 @@ RPSLS game is a game for fun. The landing page has the instructions and then you
       * This is the main game area, where you choose your weapaon and play against the computer.
       
 
-![Main game area image](./assets/images/readme-images/game-area.png)
+![Main game area image](./assets/images/readme-images/RPSLS-game.png)
 
 [Back to top](<#contents>)
 
