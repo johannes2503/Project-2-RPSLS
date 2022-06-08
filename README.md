@@ -112,6 +112,14 @@ RPSLS game is a game for fun. The landing page has the instructions and then you
 
 ![Main game area lost image](./assets/images/readme-images/lost-game.png)
 
+## Future Features 
+
+  * ### Game
+
+    * Add audio to gameplay.
+    * Add animations to the game.
+    
+
 [Back to top](<#contents>)
 
 
