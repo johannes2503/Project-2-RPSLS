@@ -145,6 +145,19 @@ a {
   font-size: 60px;
 }
 
+.result-container {
+  height: 30px;
+}
+
+.home {
+    text-align: center;
+    width: 0;
+    color: #3C4FFF;
+    font-size: 50px;
+    margin: 50px 0 0 20px;
+    
+}
+
 /* Popup for resetting game and result */
 
 /* The actual popup styling */
@@ -191,6 +204,14 @@ a {
   margin-top: 30px;
 }
 
+.home-won-lost {
+  width: 0;
+  color:white;
+  font-size: 50px;
+  float: left;
+  margin: 50px 0 0 20px;
+}
+
 
 
 /* Toggle this class - hide and show the popup */
@@ -219,7 +240,7 @@ a {
 
 /* Media Queries for responsiveness */
 
-  /* Media Query: Large Smartphone */
+  /* Media Query: tablets */
 
 @media screen and (max-width: 820px) {
     .main-game-area {
@@ -282,6 +303,10 @@ a {
     }
     #tryAgain {
       margin-top: 30px;
+    }
+
+    .home-won-lost {
+      margin: 20px 0 0 20px;
     }
   
 
@@ -357,7 +382,14 @@ a {
 
     #lost {
       height: 50%;
-     
+    }
+
+    .home {
+      margin: 10px 10px
+    }
+
+    .home-won-lost {
+      margin: 30px 10px;
     }
   
   }
