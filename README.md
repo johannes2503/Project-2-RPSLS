@@ -35,7 +35,13 @@ Welcome to the journey through <a href="https://github.com/johannes2503/Project-
 
 The wireframes for Restaurant were produced in [Figma](https://figma.com). There are frames for a full width display. The final site varies slightly from the wireframes due to developments that occured during the creation process. 
 
-![Desktop wireframe image](./assets/images/readme-images/RPSLS-game.png)
+![Desktop wireframe image](./assets/images/readme-images/home.png)
+
+![Desktop wireframe image](./assets/images/readme-images/game.png)
+
+![Desktop wireframe image](./assets/images/readme-images/game-won.png)
+
+![Desktop wireframe image](./assets/images/readme-images/game-lost.png)
 
 [Back to top](<#contents>)
 
