@@ -74,7 +74,7 @@ RPSLS game is a game for fun. The landing page has the instructions and then you
 
     * This is the landing page which you start on, it is fully responsive and contains link to the main game page.
 
-![Landing page image](./assets/images/readme-images/landing-page.png)
+![Landing page image](./assets/images/readme-images/LandingPage.png)
 
 [Back to top](<#contents>)
 
@@ -83,7 +83,7 @@ RPSLS game is a game for fun. The landing page has the instructions and then you
       * This is the main game area, where you choose your weapaon and play against the computer.
       
 
-![Main game area image](./assets/images/readme-images/RPSLS-game.png)
+![Main game area image](./assets/images/readme-images/gameArea-game.png)
 
 [Back to top](<#contents>)
 
@@ -92,7 +92,7 @@ RPSLS game is a game for fun. The landing page has the instructions and then you
       * Here you can see the game in progress, the layout of game choices and result text.
       
 
-![Main game area - in progress image](./assets/images/readme-images/game-area.png)
+![Main game area - in progress image](./assets/images/readme-images/gameArea-inProgress.png)
 
 [Back to top](<#contents>)
 
@@ -101,7 +101,7 @@ RPSLS game is a game for fun. The landing page has the instructions and then you
       * This is the screen that comes up if you win the game! Here you can see the result and also you can reset the game and try again.
       
 
-![Main game area won image](./assets/images/readme-images/won-game.png)
+![Main game area won image](./assets/images/readme-images/gameArea-won.png)
 
 [Back to top](<#contents>)
 
@@ -110,7 +110,7 @@ RPSLS game is a game for fun. The landing page has the instructions and then you
       * This is the screen that comes up if you lose the game! Here you can see the result and also you can reset the game and try again.
       
 
-![Main game area lost image](./assets/images/readme-images/lost-game.png)
+![Main game area lost image](./assets/images/readme-images/gameArea-lost.png)
 
 ## Future Features 
 
