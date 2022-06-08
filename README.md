@@ -138,6 +138,17 @@ The CSS validator results are below:
 
 ![CSS Validator test result](./assets/images/readme-images/CSS%20check.png)
 
+The JavaScript validator results are below:
+
+Metrics
+There are 11 functions in this file.
+
+Function with the largest signature take 1 arguments, while the median is 0.
+
+Largest function has 10 statements in it, while the median is 2.
+
+The most complex function has a cyclomatic complexity value of 6 while the median is 2.
+
 [Back to top](<#contents>)
 
 ## Responsiveness Test
