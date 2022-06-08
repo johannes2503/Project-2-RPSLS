@@ -219,7 +219,8 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
 A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
 1. Log in to **GitHub** and locate the [repository](https://johannes2503.github.io/Project-2-RPSLS/).
 2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
-![GitHub forking process image](./assets/images/readme-images/github-fork.png)
+
+![GitHub forking process image](./assets/images/readme-images/github-forking.png)
 
 ### **To create a local clone of this project**
 The method from cloning a project from GitHub is below:
